@@ -185,6 +185,7 @@ body {
       padding: 0 50px 0 20px;
       margin: 10px 0;
       max-height: 500px;
+      min-height: 400px;
       .subtitle {
         margin: 10px 0;
       }
@@ -195,6 +196,7 @@ body {
       max-width: None;
       height: 60vh;
       max-height: 500px;
+      min-height: 400px;
     }
     @media screen and (max-width: 800px) {
       .mobile-only {
@@ -203,7 +205,8 @@ body {
       .description {
         position: static;
         width: revert;
-        height: revert;
+        height: auto;
+        min-height: 0;
         background: revert;
         padding: revert;
         .subtitle {
@@ -253,6 +256,7 @@ body {
       padding: 0 20px 0 50px;
       margin: 10px 0;
       max-height: 500px;
+      min-height: 350px;
       .subtitle {
         margin: 10px 0;
       }
@@ -263,6 +267,7 @@ body {
       max-width: None;
       height: 60vh;
       max-height: 500px;
+      min-height: 350px;
     }
     @media screen and (max-width: 800px) {
       .mobile-only {
@@ -271,7 +276,8 @@ body {
       .description {
         position: static;
         width: revert;
-        height: revert;
+        height: auto;
+        min-height: 0;
         background: revert;
         padding: revert;
         .subtitle {
